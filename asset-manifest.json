@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f2e5a08c.css",
-    "main.js": "/portfolio/static/js/main.f367d6e5.js",
+    "main.js": "/portfolio/static/js/main.ff68c12c.js",
     "static/css/64.917cfe77.chunk.css": "/portfolio/static/css/64.917cfe77.chunk.css",
     "static/js/64.a2201178.chunk.js": "/portfolio/static/js/64.a2201178.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/portfolio/static/css/769.70f3b610.chunk.css",
     "static/js/769.ad0ab772.chunk.js": "/portfolio/static/js/769.ad0ab772.chunk.js",
+    "static/media/logopixel.png": "/portfolio/static/media/logopixel.879ce4b0ff0a5a65ad1e.png",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/crowdium.jpeg": "/portfolio/static/media/crowdium.3e8015cb9ade4b34a686.jpeg",
@@ -37,7 +38,7 @@
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "static/media/angular.svg": "/portfolio/static/media/angular.ba3c21407a6846f51a7aead25d8644f0.svg",
     "main.f2e5a08c.css.map": "/portfolio/static/css/main.f2e5a08c.css.map",
-    "main.f367d6e5.js.map": "/portfolio/static/js/main.f367d6e5.js.map",
+    "main.ff68c12c.js.map": "/portfolio/static/js/main.ff68c12c.js.map",
     "64.917cfe77.chunk.css.map": "/portfolio/static/css/64.917cfe77.chunk.css.map",
     "64.a2201178.chunk.js.map": "/portfolio/static/js/64.a2201178.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/portfolio/static/css/769.70f3b610.chunk.css.map",
@@ -45,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.f2e5a08c.css",
-    "static/js/main.f367d6e5.js"
+    "static/js/main.ff68c12c.js"
   ]
 }
