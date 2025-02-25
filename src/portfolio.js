@@ -4,6 +4,32 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import nextImg from "./assets/images/next-js.svg";
+import nestImg from "./assets/images/nestjs.svg";
+import mongodbImg from "./assets/images/mongodb.svg";
+import aws from "./assets/images/aws.svg";
+import firebase from "./assets/images/firebase.svg";
+import docker from "./assets/images/docker.svg";
+import node from "./assets/images/node.svg";
+import angular from "./assets/images/angular.svg";
+import react from "./assets/images/react.svg";
+import vercel from "./assets/images/vercel.svg";
+import prisma from "./assets/images/prisma.svg";
+import htb from "./assets/images/htb.svg";
+import sql from "./assets/images/sql.svg";
+import tailwind from "./assets/images/tailwind.svg";
+import wordpress from "./assets/images/wordpress.svg";
+import jquery from "./assets/images/jquery.svg";
+import manpower from "./assets/images/manpower.svg";
+import nlkCapital from "./assets/images/nlkCapital.svg";
+import crowdev from "./assets/images/crowdev.svg";
+import chatBot from "./assets/images/chatBot.svg";
+import openai from "./assets/images/openai.svg";
+import uchat from "./assets/images/uchat.svg";
+import gemini from "./assets/images/gemini.svg";
+import vacamuerta from "./assets/images/vacamuerta.svg";
+import fiducialys from "./assets/images/fiducialys.svg";
+import langchain from "./assets/images/langchain.png";
 
 // Splash Screen
 
@@ -12,6 +38,8 @@ const splashScreen = {
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
+
+const getImage = (imageName) => skillsSection.softwareSkills.find((skill) => skill.skillName === imageName)?.image || ''
 
 // Summary And Greeting Section
 
@@ -23,9 +51,9 @@ const greeting = {
   username: "Pato Fara",
   title: "Hi all, I'm Pato",
   subTitle: emoji(
-    "I am a passionate developer with more than 3 years of experience building frontend services for different companies, both big and new. I have fun creating, I am passionate about problem solving. 'You never stop learning.' "
+    "I am a passionate developer with more than 4 years of experience building frontend & backend services for big and new companies. I have fun creating, I am passionate about problem solving. 'You never stop learning.' "
   ),
-  resumeLink:"",// Set to empty to hide the button
+  resumeLink: "",// Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -63,44 +91,104 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "Langchain",
+      fontAwesomeClassname: "fab fa-hackerrank",
+      image: langchain
+    },
+    {
+      skillName: "OpenAi",
+      fontAwesomeClassname: "fab fa-hackerrank",
+      image: openai
+    },
+    {
+      skillName: "Gemini",
+      fontAwesomeClassname: "fab fa-hackerrank",
+      image: gemini
+    },
+    // {
+    //   skillName: "UChat",
+    //   fontAwesomeClassname: "fab fa-hackerrank",
+    //   image: uchat
+    // },
+    {
+      skillName: "Vercel",
+      fontAwesomeClassname: "fab fa-hackerrank",
+      image: vercel
+    },
+    {
+      skillName: "Prisma",
+      fontAwesomeClassname: "fab fa-hackerrank",
+      image: prisma
+    },
+    {
       skillName: "HackTheBox",
-      fontAwesomeClassname: "fab fa-hackerrank"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nextjs",
-      fontAwesomeClassname: "fab fa-next"
-    },
-    {
-      skillName: "angular",
-      fontAwesomeClassname: "fab fa-angular"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "mongoDB",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      fontAwesomeClassname: "fab fa-hackerrank",
+      image: htb
     },
     {
       skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      fontAwesomeClassname: "fab fa-docker",
+      image: docker
+    },
+    {
+      skillName: "reactJs",
+      fontAwesomeClassname: "fab fa-react",
+      image: react
+    },
+    {
+      skillName: "nextJs",
+      fontAwesomeClassname: "fab fa-next",
+      image: nextImg
+    },
+    {
+      skillName: "nestJs",
+      fontAwesomeClassname: "fab fa-next",
+      image: nestImg
+    },
+    {
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular",
+      image: angular
+    },
+    {
+      skillName: "nodeJs",
+      fontAwesomeClassname: "fab fa-node",
+      image: node
+    },
+    {
+      skillName: "mongoDB",
+      fontAwesomeClassname: "fas fa-database",
+      image: mongodbImg
+    },
+    {
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database",
+      image: sql
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws",
+      image: aws
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire",
+      image: firebase
+    },
+    {
+      skillName: "tailwind",
+      fontAwesomeClassname: "fab fa-tailwind",
+      image: tailwind
+    },
+    {
+      skillName: "wordpress",
+      fontAwesomeClassname: "fab fa-wordpress",
+      image: wordpress
+    },
+    {
+      skillName: "jquery",
+      fontAwesomeClassname: "fab fa-jquery",
+      image: jquery
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -157,22 +245,21 @@ const workExperiences = {
       company: "Crowdium",
       companylogo: require("./assets/images/crowdium.jpeg"),
       date: "Aug 2021 – Present",
-      desc: "In charge of developing the front end of the platform"   
+      desc: "In charge of developing the front end of the platform"
     },
     {
       role: "Front-End Developer",
       company: "Crowdev",
-      companylogo: require("./assets/images/crowdev.jpeg"),
+      companylogo: crowdev,
       date: "Jan 2022 – Present",
       desc: "We are a group of programmers who work as freelancers for big projects",
     },
- 
-    {
-      role: "Freelancer",
-      company: "Autónomo",
-      companylogo: require("./assets/images/freelancer.avif"),
-      date: "Oct. 2020 – Present",
-    }
+    // {
+    //   role: "Freelancer",
+    //   company: "Autónomo",
+    //   companylogo: require("./assets/images/freelancer.avif"),
+    //   date: "Oct. 2020 – Present",
+    // }
   ]
 };
 
@@ -187,16 +274,82 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Some Projects",
   projects: [
+    {
+      image: chatBot,
+      projectName: "Automated chat bots",
+      tech: [getImage('OpenAi'), getImage('Gemini')],
+      projectDesc: "Chatbots for companies to automate customer service.",
+      footerLink: [
+        {
+          name: "Chat With Me",
+          url: "https://wa.me/5491141410758"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+
+    {
+      image: vacamuerta,
+      projectName: "QR Mode",
+      tech: [uchat, getImage('mongoDB'), prisma,],
+      projectDesc: "QRMode is an innovative system that allows guests to make claims quickly and easily using QR codes. Accommodations improve their operational efficiency, reduce costs and increase guest satisfaction.",
+      footerLink: [
+        {
+          name: "Visit newspaper note",
+          url: "https://www.cronista.com/brand-strategy/vaca-muerta-housing-el-desarrollo-del-sistema-qr-mode-que-los-convirtio-en-la-rentaltech-de-hospedajes-corporativos-mas-potente-de-anelo/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: fiducialys,
+      projectName: "Fiducialys",
+      tech: [nextImg, getImage('mongoDB'), vercel,],
+      projectDesc: "Fiduciary management platform.",
+      footerLink: [
+        {
+          name: "Comming soon",
+          // url: "https://www.cronista.com/brand-strategy/vaca-muerta-housing-el-desarrollo-del-sistema-qr-mode-que-los-convirtio-en-la-rentaltech-de-hospedajes-corporativos-mas-potente-de-anelo/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/crowdium-logo.png"),
       projectName: "Crowdium",
-      projectDesc: "Robust and complex platform to manage client investments, completed projects, achieving a product adaptable to any country, whether from the language, its coins and any of their peculiarities. Based on Angular and Node Js"    ,
+      tech: [getImage('angular'), getImage('nestJs'), getImage('mongoDB')],
+      projectDesc: "Robust and complex platform to manage client investments, completed projects, achieving a product adaptable to any country, whether from the language, its coins and any of their peculiarities. Based on Angular and NestJs",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Visit Crowdium",
           url: "https://www.crowdium.com.ar/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/mapa.png"),
+      projectName: "Digital Audit",
+      tech: [getImage('nextJs'), getImage('mongoDB')],
+      projectDesc: "WebbApp for digital inspection, used by the La Libertad Avanza (Javier Milei's political party) computing center in the presidential elections of November 2023. Helping to make voting more secure and transparent. Based on NextJs and NestJs",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "https://elecciontransparente.com/mesas"
+      //   }
+      // ]
+    },
+    {
+      image: require("./assets/images/techfinance-logo.png"),
+      projectName: "Techfinance",
+      tech: [getImage('nextJs'), getImage('mongoDB')],
+      projectDesc: "Robust and complex platform to manage client investments, completed projects, achieving a product adaptable to any country, whether from the language, its coins and any of their peculiarities. Based on Next and Mongo",
+      footerLink: [
+        {
+          name: "Visit Techfinance",
+          url: "https://www.techfinance.com.ar/"
         }
         //  you can add extra buttons here.
       ]
@@ -204,13 +357,82 @@ const bigProjects = {
     {
       image: require("./assets/images/fulldata.png"),
       projectName: "Full Data Pro",
+      tech: [getImage('nextJs'), getImage('mongoDB')],
       projectDesc: "CRM to be able to obtain public data of people",
       footerLink: [
         {
           name: "Coming Soon",
         }
       ]
-    }
+    },
+
+    {
+      image: manpower,
+      projectName: "Manpower",
+      tech: [getImage('nextJs'), getImage('mongoDB'), getImage('aws')],
+      projectDesc: "Redesign and launch of an update of the Manpower UY website",
+      footerLink: [
+        {
+          name: "Visit Manpower",
+          url: "https://ejobs.manpower.com.uy/"
+        }
+      ]
+    },
+    {
+      image: nlkCapital,
+      projectName: "NLK Capital",
+      tech: [getImage('nextJs'), getImage('mongoDB'), vercel],
+      projectDesc: "Creation and maintenance of all landing pages of the business conglomerate",
+      footerLink: [
+        {
+          name: "NLK Capital",
+          url: "https://nlk.capital/"
+        },
+        {
+          name: "Next Neuquen",
+          url: "https://www.nextneuquen.com/"
+        },
+        {
+          name: "Vaca Muerta Housing",
+          url: "https://vacamuertahousing.com.ar/"
+        },
+        {
+          name: "Next Pampa 2.0",
+          url: "https://nextpampa20.com/"
+        },
+        {
+          name: "Landium",
+          url: "https://landium.com.ar/"
+        },
+      ]
+    },
+
+    // {
+    //   image: require("./assets/images/logopixel.png"),
+    //   projectName: "PixelPanada",
+    //   tech: [getImage('nextJs'), getImage('mongoDB')],
+    //   projectDesc: "Small and Interactive Landing Page for Food Company",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://pixelpanadas.com/"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
+    // {
+    //   image: require("./assets/images/logoJuanaFranquez.png"),
+    //   projectName: "Architect Portfolio",
+    //   projectDesc: "Portfolio deployed on Vercel",
+    //   tech: [getImage('nextJs'), getImage('mongoDB')],
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://juana-portfolio.vercel.app/"
+    //     }
+    //     //  you can add extra buttons here.
+    //   ]
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -265,7 +487,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"

@@ -3,7 +3,9 @@
 .card-image {
   max-width: 100%;
   height: auto;
+  max-height: 200px;
   width: 250px;
+  object-fit: contain;
 }
 .card-title {
   color: $titleColor;
@@ -24,7 +26,6 @@
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
-  justify-content: center;
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
