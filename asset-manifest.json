@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fa946beb.css",
-    "main.js": "/portfolio/static/js/main.0a616ebf.js",
+    "main.js": "/portfolio/static/js/main.5ffdbf82.js",
     "static/css/487.bb36206c.chunk.css": "/portfolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/portfolio/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/portfolio/static/css/990.c6a7ee28.chunk.css",
-    "static/js/990.9a9b6a58.chunk.js": "/portfolio/static/js/990.9a9b6a58.chunk.js",
+    "static/js/990.c30b87a3.chunk.js": "/portfolio/static/js/990.c30b87a3.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/chatBot.svg": "/portfolio/static/media/chatBot.143393d20f315c2ce58e6b0f84e3d17e.svg",
     "static/media/Agustina.woff": "/portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -19,7 +19,6 @@
     "static/media/fulldata.png": "/portfolio/static/media/fulldata.a334761453bf0c618e39.png",
     "static/media/crowdium-logo.png": "/portfolio/static/media/crowdium-logo.eaf02f25bc57a8e42ce6.png",
     "static/media/codeInLogo.webp": "/portfolio/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
-    "static/media/crowdev.svg": "/portfolio/static/media/crowdev.d32c4460e6c17aee02de613586d33313.svg",
     "static/media/skill.svg": "/portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/vacamuerta.svg": "/portfolio/static/media/vacamuerta.d79cd90006340cf57d0e1f9502c5d8bf.svg",
     "static/media/manpower.svg": "/portfolio/static/media/manpower.ef1d7ab3399e5d73703b0ae629c43465.svg",
@@ -43,19 +42,20 @@
     "static/media/htb.svg": "/portfolio/static/media/htb.dbaced2ab591b3ba04030c6720ebec73.svg",
     "static/media/tailwind.svg": "/portfolio/static/media/tailwind.681db3393706b0b8d30fa63229e8ee85.svg",
     "static/media/firebase.svg": "/portfolio/static/media/firebase.d770ed71d4d33ffa60f8cae9b7ba0350.svg",
+    "static/media/freelancer.avif": "/portfolio/static/media/freelancer.88042edc1da1438ac205.avif",
     "static/media/vercel.svg": "/portfolio/static/media/vercel.7762699cc5c387b1e4fec70517ce9b91.svg",
     "static/media/uchat.svg": "/portfolio/static/media/uchat.d75f8c25b15350e5493413618b04780b.svg",
     "static/media/talksCardBack.svg": "/portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "static/media/angular.svg": "/portfolio/static/media/angular.ba3c21407a6846f51a7aead25d8644f0.svg",
     "main.fa946beb.css.map": "/portfolio/static/css/main.fa946beb.css.map",
-    "main.0a616ebf.js.map": "/portfolio/static/js/main.0a616ebf.js.map",
+    "main.5ffdbf82.js.map": "/portfolio/static/js/main.5ffdbf82.js.map",
     "487.bb36206c.chunk.css.map": "/portfolio/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/portfolio/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/portfolio/static/css/990.c6a7ee28.chunk.css.map",
-    "990.9a9b6a58.chunk.js.map": "/portfolio/static/js/990.9a9b6a58.chunk.js.map"
+    "990.c30b87a3.chunk.js.map": "/portfolio/static/js/990.c30b87a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa946beb.css",
-    "static/js/main.0a616ebf.js"
+    "static/js/main.5ffdbf82.js"
   ]
 }
